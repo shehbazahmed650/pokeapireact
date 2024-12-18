@@ -1,0 +1,49 @@
+ .buttonclick{
+    display: flex;
+    display: inline-block;
+    background-color: grey;
+    justify-content: center; 
+    align-items: center;
+    margin: 2px 2px 2px 2px;
+}
+
+.buttonh{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 110px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.buttonh:hover{
+    background-color: blue;
+    color: green;
+   transform: translateX(10px);
+   transform: translateY(10px);
+   transform: translateZ(10px);
+   font-weight: bold;
+}
+.containerpoke{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image{
+    display: flex;
+    background-color: yellowgreen;
+    border: solid 1px grey;
+    border-radius: 20px;
+}
+.upperheader{
+    
+    background-color: grey;
+    margin-top: 0%;
+     text-align: center;
+     padding-top: 0;
+}
